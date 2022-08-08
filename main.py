@@ -3,9 +3,7 @@ from tkinter import *
 from time import strftime
 from PIL import ImageTk, Image
 
-
 # time function
-
 def time():
     current_time = strftime('%H:%M:%S')
     current_date = strftime('%a, %d %b')
@@ -26,4 +24,5 @@ time_text = canvas.create_text(160, 270,font=("Courier", 35, "bold"))
 canvas.pack()
 
 time()
+
 window.mainloop()
